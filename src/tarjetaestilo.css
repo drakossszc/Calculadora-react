@@ -1,0 +1,43 @@
+.tarjetapersonal {
+  width: 320px;
+  padding: 25px;
+  margin: 50px auto;
+  text-align: center;
+  border-radius: 15px;
+  background-color: #ffffff;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+}
+
+.fotoperfil {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.tarjetapersonal h2 {
+  margin-bottom: 5px;
+}
+
+.profesion {
+  color: #6366f1;
+  font-weight: bold;
+}
+
+.descripcion {
+  color: #555;
+  line-height: 1.5;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.social-links a {
+  color: #6366f1;
+  text-decoration: none;
+  font-weight: bold;
+}
